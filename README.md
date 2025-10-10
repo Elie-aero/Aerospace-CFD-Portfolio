@@ -48,7 +48,6 @@ To develop a strong foundation in **CFD, rocket propulsion, and simulation workf
 
 ## 🛰️ Progress Log
 - **Oct 2025:** Created GitHub repository & defined 12-month learning roadmap  
-- *(add more monthly updates as you progress)*  
 
 ---
 
