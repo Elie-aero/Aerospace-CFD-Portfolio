@@ -5,7 +5,7 @@ I'm currently transitioning into the aerospace field and documenting my **12-mon
 
 This repository will serve as my **open portfolio**, where I’ll upload:
 
-- Learning notes and resources I study  
+- Learning notes and resources.  
 - Code, scripts, and simulation files (OpenFOAM, Python, Fluent)  
 - Final project reports with visuals and validation comparisons  
 
