@@ -9,6 +9,7 @@ This repository is my **public portfolio** for projects built around:
 
 ---
 
+
 ## 🎯 Mission
 
 Build a strong, *industry-relevant* skill set in **aerospace propulsion and simulation** using  
@@ -44,7 +45,6 @@ Build a strong, *industry-relevant* skill set in **aerospace propulsion and simu
 
 As projects are completed, they’ll be organized like this:
 
-```text
 Aerospace-CFD-Portfolio/
 │
 ├── matlab-simulink/
@@ -61,17 +61,12 @@ Aerospace-CFD-Portfolio/
 │
 └── docs/
     ├── reports/                # PDF reports & writeups
-    └── figures/                # Plots and visualization exports     ```text
-
-
----
-
-## 🛰️ Progress Log
-- **Oct 2025:** Created GitHub repository & defined 12-month learning roadmap  
+    └── figures/                # Plots and visualization exports    
 
 ---
 
-## 📫 Connect
+
+# 📫 Connect
 - **LinkedIn:** https://www.linkedin.com/in/moussaelie/ 
 - **Email:** eliemoussacareer@outlook.com
 
