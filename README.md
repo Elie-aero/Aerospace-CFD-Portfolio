@@ -52,20 +52,20 @@ As projects are completed, they’ll be organized like this:
 
 
 ### matlab-simulink
-   control_system           # Simple Simulink control/propulsion-related models
-   data_analysis            # MATLAB scripts for plotting & post-processing
+   -control_system           # Simple Simulink control/propulsion-related models
+   -data_analysis            # MATLAB scripts for plotting & post-processing
    
 ### ansys-fluent
-    airfoil-cfd             # 2D airfoil cases (setups, reports, images)
-    nozzle-cfd              # Convergent–divergent nozzle cases
+    -airfoil-cfd             # 2D airfoil cases (setups, reports, images)
+    -nozzle-cfd              # Convergent–divergent nozzle cases
     
 ### python-ml
-    rocket_1d_solver        # 1D rocket / nozzle performance scripts
-    cfd_surrogate_models    # ML models trained on CFD/simulation data
+    -rocket_1d_solver        # 1D rocket / nozzle performance scripts
+    -cfd_surrogate_models    # ML models trained on CFD/simulation data
  
  ### docs 
-    reports                 # PDF reports & writeups
-    figures                 # Plots and visualization exports   
+    -reports                 # PDF reports & writeups
+    -figures                 # Plots and visualization exports   
 
 ---
 
