@@ -1,5 +1,4 @@
 # 🚀 Aerospace CFD & Propulsion Learning Journey
-### MATLAB · Simulink · ANSYS Fluent · Python · Machine Learning
 
 Hello! I’m **Elie Moussa**, a Mechanical Engineering master’s student focused on **aerospace simulation, propulsion, and controls**.
 This repository is my **public portfolio** for projects built around:
