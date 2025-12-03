@@ -40,7 +40,7 @@ Build a strong, *industry-relevant* skill set in **aerospace propulsion and simu
 
 ---
 
-## 📂 Repository Structure (planned)
+## 📂 Repository Structure (planned) 
 
 As projects are completed, they’ll be organized like this:
 
@@ -63,6 +63,7 @@ Aerospace-CFD-Portfolio/
     ├── reports/                # PDF reports & writeups
     └── figures/                # Plots and visualization exports
 
+---
 ---
 
 ## 🛰️ Progress Log
