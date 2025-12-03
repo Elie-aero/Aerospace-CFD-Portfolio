@@ -39,10 +39,6 @@ Build a strong, *industry-relevant* skill set in **aerospace propulsion and simu
 - Airfoil aerodynamics and performance metrics  
 - Intro rocket/nozzle propulsion performance (thrust, Isp, mass flow)  
 
----
-
-## 🛰️ Progress Log
-- **Oct 2025:** Created GitHub repository & defined 12-month learning roadmap  
 
 ---
 
@@ -50,10 +46,7 @@ Build a strong, *industry-relevant* skill set in **aerospace propulsion and simu
 
 As projects are completed, they’ll be organized like this:
 
-
-
 ### matlab-simulink
-
    -control_system           # Simple Simulink control/propulsion-related models
    -data_analysis            # MATLAB scripts for plotting & post-processing
    
