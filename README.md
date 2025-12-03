@@ -64,3 +64,13 @@ Aerospace-CFD-Portfolio/
 └── docs/
     ├── reports/                # PDF reports & writeups
     └── figures/                # Plots and visualization exports
+
+## 📫 Connect
+- **LinkedIn:** https://www.linkedin.com/in/moussaelie/ 
+- **Email:** eliemoussacareer@outlook.com
+
+---
+
+> ✨ *“Building expertise one simulation at a time.”*  
+This portfolio will evolve as I complete projects and document results.  
+
