@@ -1,47 +1,68 @@
 # 🚀 Aerospace CFD & Propulsion Learning Journey
+### MATLAB · Simulink · ANSYS Fluent · Python · Machine Learning
 
-Hello! I am Elie Moussa, a Mechanical Engineering master's student passionate about **Aerospace simulation, CFD, and propulsion systems**.  
-I'm currently transitioning into the aerospace field and documenting my **learning journey** toward becoming a simulation and propulsion engineer.
+Hello! I’m **Elie Moussa**, a Mechanical Engineering master’s student focused on **aerospace simulation, propulsion, and controls**.
+This repository is my **public portfolio** for projects built around:
 
-This repository will serve as my **open portfolio**, where I’ll upload:
-
-- Learning notes and resources.  
-- Code, scripts, and simulation files (OpenFOAM, Python, Fluent)  
-- Final project reports with visuals and validation comparisons  
-
----
-
-## 🎯 My Mission
-To develop a strong foundation in **CFD, rocket propulsion, and simulation workflows** using both open-source and industry tools — and to share my progress publicly so others can learn along with me.
+- **MATLAB & Simulink** – modelling dynamic systems, control, and data analysis  
+- **ANSYS Fluent** – CFD for airfoils, nozzles, and propulsion-related flows  
+- **Python & Machine Learning** – automation, data processing, and surrogate models for simulation
 
 ---
 
-## 🧱 Upcoming Learning Plan (2025–2026)
+## 🎯 Mission
 
-| Phase | Focus | Expected Deliverables |
-|---|---|---|
-| **Foundation (Months 1–3)** | CFD basics, Ansys Fluent,FVM, Python scripting, OpenFOAM setup | Notes, small CFD tutorial cases |
-| **Applied CFD (Months 4–6)** | Airfoil simulations, meshing, validation | 2D airfoil CFD project |
-| **Propulsion & Compressible Flow (Months 7–9)** | Nozzle & plume flow, rocket thermodynamics | 1D rocket cycle solver, nozzle CFD |
-| **Advanced & Automation (Months 10–12)** | Transonic flows, HPC, automation | Capstone CFD project (rocket plume) |
+Build a strong, *industry-relevant* skill set in **aerospace propulsion and simulation** using  
+**MATLAB/Simulink, ANSYS Fluent, and Python/ML**, and document everything in a clean, reproducible way.
 
 ---
 
-## 🧰 Tools I’m Learning
+## 🛠 Skills & Tools
 
-- **Simulation:** ANSYS Fluent, OpenFOAM, ParaView  
-- **Programming:** Python (NumPy, SciPy, Matplotlib), Bash, C++
-- **Engineering:** Rocket propulsion, compressible flow, turbulence modeling, thermodynamics  
+**Simulation & CFD**
+- ANSYS Fluent  
+- Basic mesh setup and post-processing for external and internal aerodynamics  
+- Nozzle and basic propulsion-related flow cases
+
+**MATLAB & Simulink**
+- MATLAB scripting for engineering calculations and data analysis  
+- Simulink models of dynamic systems (actuators, simple propulsion/control blocks)  
+- Plotting, parameter sweeps, and result post-processing
+
+**Python & Machine Learning**
+- Python (NumPy, SciPy, pandas, Matplotlib)  
+- Basic machine learning (scikit-learn): regression & classification  
+- Training simple surrogate models on CFD or simulation data (e.g. predicting Cl/Cd, nozzle performance)
+
+**Aerospace / Propulsion Concepts**
+- Compressible flow (Mach number, shock & expansion basics)  
+- Airfoil aerodynamics and performance metrics  
+- Intro rocket/nozzle propulsion performance (thrust, Isp, mass flow)
 
 ---
 
-## 🧩 Planned Projects
+## 📂 Repository Structure (planned)
 
-*(To be added as completed — stay tuned!)*  
-1. Airfoil CFD (ANSYS Fluent)  
-2. Rocket nozzle compressible flow simulation  
-3. 1D rocket engine cycle solver (Python)  
-4. Rocket plume expansion case (capstone)
+As projects are completed, they’ll be organized like this:
+
+```text
+Aerospace-CFD-Portfolio/
+│
+├── matlab-simulink/
+│   ├── control_systems/        # Simple Simulink control/propulsion-related models
+│   └── data_analysis/          # MATLAB scripts for plotting & post-processing
+│
+├── ansys-fluent/
+│   ├── airfoil-cfd/            # 2D airfoil cases (setups, reports, images)
+│   └── nozzle-cfd/             # Convergent–divergent nozzle cases
+│
+├── python-ml/
+│   ├── rocket_1d_solver/       # 1D rocket / nozzle performance scripts
+│   └── cfd_surrogate_models/   # ML models trained on CFD/simulation data
+│
+└── docs/
+    ├── reports/                # PDF reports & writeups
+    └── figures/                # Plots and visualization exports
 
 ---
 
