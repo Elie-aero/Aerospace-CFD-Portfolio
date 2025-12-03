@@ -51,19 +51,19 @@ Build a strong, *industry-relevant* skill set in **aerospace propulsion and simu
 As projects are completed, they’ll be organized like this:
 
 
-matlab-simulink
+### matlab-simulink
    control_system           # Simple Simulink control/propulsion-related models
    data_analysis            # MATLAB scripts for plotting & post-processing
    
-ansys-fluent
+### ansys-fluent
     airfoil-cfd             # 2D airfoil cases (setups, reports, images)
     nozzle-cfd              # Convergent–divergent nozzle cases
     
-python-ml
+### python-ml
     rocket_1d_solver        # 1D rocket / nozzle performance scripts
     cfd_surrogate_models    # ML models trained on CFD/simulation data
  
- docs
+ ### docs 
     reports                 # PDF reports & writeups
     figures                 # Plots and visualization exports   
 
