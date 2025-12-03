@@ -47,8 +47,8 @@ Build a strong, *industry-relevant* skill set in **aerospace propulsion and simu
 As projects are completed, they’ll be organized like this:
 
 ### matlab-simulink
-   -control_system           # Simple Simulink control/propulsion-related models
-   -data_analysis            # MATLAB scripts for plotting & post-processing
+   -control-system           # Simple Simulink control/propulsion-related models
+   -data-analysis            # MATLAB scripts for plotting & post-processing
    
 ### ansys-fluent
     -airfoil-cfd             # 2D airfoil cases (setups, reports, images)
