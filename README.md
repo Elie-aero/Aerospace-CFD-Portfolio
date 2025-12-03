@@ -61,9 +61,9 @@ Aerospace-CFD-Portfolio/
 │
 └── docs/
     ├── reports/                # PDF reports & writeups
-    └── figures/                # Plots and visualization exports
+    └── figures/                # Plots and visualization exports /
 
----
+
 ---
 
 ## 🛰️ Progress Log
