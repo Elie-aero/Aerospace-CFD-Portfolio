@@ -31,10 +31,10 @@ ANSYS APDL · Finite Element Analysis
 SolidWorks
 
 **Technical workflow**  
-Git · GitHub · LaTeX · Excel
+LaTeX · Excel
 
 **Currently developing**  
-CFD · OpenFOAM · COMSOL · advanced numerical simulation
+CFD · COMSOL · advanced numerical simulation
 
 > Learning-stage technologies are identified separately and are not presented as demonstrated expertise.
 
