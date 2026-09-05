@@ -1,113 +1,84 @@
-# Elie Moussa — Aerospace Engineering Portfolio
+# ISA Atmosphere & Airspeed Conversion — MATLAB/Simulink
 
-**Mechanical & Thermal Engineering | Numerical Simulation | Aerospace Propulsion**
+**Engineering simulation project by Elie Moussa**  
+Polytech Nantes — 4A, Diplôme d’ingénieur TEM (Thermique, Énergétique et Mécanique)
 
-I am a **4A engineering student at Polytech Nantes** in the *Diplôme d'ingénieur — Thermique, Énergétique et Mécanique (TEM)* programme, with a prior **BSc in Mechanical Engineering**.
+## Overview
 
-My technical direction is focused on **thermal-fluid systems, numerical simulation, aerospace propulsion, turbomachinery, and thermal management**. This repository documents engineering work that I can explain, reproduce, and defend technically.
+This project develops a MATLAB/Simulink workflow for atmospheric-state modelling and airspeed conversion across representative flight conditions. The model combines an International Standard Atmosphere (ISA) subsystem with a True Airspeed (TAS) to Calibrated Airspeed (CAS) conversion workflow and supporting coordinate-transformation logic.
 
-> **Current objective:** build a rigorous project portfolio for a **Summer 2027 aerospace / thermal-fluid / simulation internship**.
+The repository is presented as an engineering case study: model architecture, representative verification cases, visual evidence, and a technical report are kept together so that the work can be reviewed independently.
 
----
+## Engineering objectives
 
-## Selected Project
+- Model atmospheric properties as a function of altitude using ISA relationships.
+- Convert TAS inputs to CAS within the Simulink workflow.
+- Organize the model into clear, reusable subsystems.
+- Implement supporting Earth-to-body transformation logic.
+- Check model behaviour at representative altitude and airspeed conditions.
+- Document the methodology and outputs in a technical report.
 
-### ISA Atmosphere & TAS-to-CAS Conversion — MATLAB/Simulink
-
-A MATLAB/Simulink aerospace modelling project built around atmospheric-state modelling and airspeed conversion for representative flight conditions.
-
-**Engineering scope**
-- International Standard Atmosphere (ISA) modelling
-- True Airspeed (TAS) to Calibrated Airspeed (CAS) conversion workflow
-- Earth-to-body coordinate transformation logic
-- Model decomposition into Simulink subsystems
-- Verification using representative altitude / airspeed cases
-
-**Tools:** MATLAB · Simulink
-
-**Representative model views**
+## Model architecture
 
 <p align="center">
-  <img src="ISA%20%26%20TAS2CAS%20SUBSYTEM.png" width="48%" alt="ISA and TAS-to-CAS Simulink subsystem" />
-  <img src="Matlab%20complete%20rotation%20earth%20to%20Body%20.png" width="48%" alt="Earth-to-body coordinate transformation model" />
+  <img src="assets/figures/isa-tas-cas-subsystem.png" width="48%" alt="ISA and TAS-to-CAS Simulink subsystem" />
+  <img src="assets/figures/earth-to-body-transformation.png" width="48%" alt="Earth-to-body coordinate transformation model" />
 </p>
 
-**Representative validation cases**
+The model is decomposed into subsystems so that atmospheric calculations, airspeed conversion, and supporting transformations can be inspected and tested separately.
+
+## Representative verification cases
 
 <p align="center">
-  <img src="Altitude%20zero%20and%20TAS%20equal%20150.png" width="48%" alt="Sea-level TAS 150 validation case" />
-  <img src="Altitude%2012000%20m%20and%20TAS%20equal%20200.png" width="48%" alt="12000 m TAS 200 validation case" />
+  <img src="assets/figures/validation-sea-level-tas-150.png" width="48%" alt="Sea-level TAS 150 verification case" />
+  <img src="assets/figures/validation-12000m-tas-200.png" width="48%" alt="12000 m TAS 200 verification case" />
 </p>
 
-[View the technical report](Simulink_ISA_TAS2CAS_Report_.pdf)
+Two representative operating points are retained in the repository to show the model being exercised at substantially different atmospheric conditions.
+
+## Tools used
+
+- MATLAB
+- Simulink
+
+## Repository structure
+
+```text
+.
+├── README.md
+├── assets/
+│   └── figures/
+│       ├── atmosphere-model-overview.png
+│       ├── earth-to-body-transformation.png
+│       ├── isa-tas-cas-subsystem.png
+│       ├── validation-12000m-tas-200.png
+│       ├── validation-sea-level-tas-150.png
+│       └── supporting/
+├── docs/
+│   └── isa-tas-cas-report.pdf
+└── .gitignore
+```
+
+## Technical report
+
+The full project report is available here:
+
+**[Open the technical report](docs/isa-tas-cas-report.pdf)**
+
+## Engineering context
+
+This project is part of my development in numerical simulation for aerospace and thermal-fluid engineering. My current academic path at Polytech Nantes focuses on thermal, energy, and mechanical engineering, with long-term interests in aerospace propulsion, turbomachinery, thermal management, and simulation-driven engineering.
+
+## Author
+
+**Elie Moussa**  
+4A Engineering Student — Polytech Nantes  
+Thermique, Énergétique et Mécanique (TEM)  
+BSc in Mechanical Engineering
+
+- [LinkedIn](https://www.linkedin.com/in/moussaelie/)
+- [Email](mailto:eliemoussacareer@outlook.com)
 
 ---
 
-## Engineering Focus
-
-| Area | Current direction |
-|---|---|
-| **Thermal-Fluids** | Heat transfer, fluid mechanics, compressible-flow fundamentals |
-| **Numerical Simulation** | MATLAB/Simulink, FEA workflows, engineering post-processing |
-| **Aerospace** | Propulsion, turbomachinery, aerodynamics, thermal management |
-| **Mechanical Design** | CAD, structural reasoning, engineering documentation |
-
----
-
-## Technical Toolkit
-
-**Simulation & computation**  
-MATLAB · Simulink · Python · ANSYS APDL / FEA
-
-**CAD & mechanical design**  
-SolidWorks · Fusion 360 · Autodesk Inventor
-
-**Engineering workflow**  
-Git · GitHub · Excel · LaTeX
-
-> Tools are listed as part of my broader academic/project workflow. Individual repositories are intended to provide evidence for the specific tools used in each project.
-
----
-
-## Portfolio Development
-
-This repository began as a broad aerospace-CFD learning space. I am now restructuring it into an **evidence-based engineering portfolio**.
-
-Projects will be added only when they contain enough technical substance to show:
-
-1. **Problem definition**
-2. **Physics and assumptions**
-3. **Method / model setup**
-4. **Results**
-5. **Verification or validation**
-6. **Engineering interpretation**
-
-Planned portfolio directions include:
-- Aerospace structural FEA
-- Airfoil / aerodynamic analysis
-- Thermal-management and heat-transfer studies
-- CFD for internal or external flows
-- Propulsion / turbomachinery modelling
-
-These items are **development targets**, not claims of completed work.
-
----
-
-## Education
-
-**Polytech Nantes — Nantes Université**  
-Diplôme d'ingénieur, Thermique, Énergétique et Mécanique (TEM) — **4A / Bac+4**
-
-**Mechanical Engineering**  
-BSc completed prior to joining Polytech Nantes
-
----
-
-## Contact
-
-- **LinkedIn:** [linkedin.com/in/moussaelie](https://www.linkedin.com/in/moussaelie/)
-- **Email:** [eliemoussacareer@outlook.com](mailto:eliemoussacareer@outlook.com)
-
----
-
-*This portfolio is maintained as technical evidence of my engineering development. Project pages prioritize reproducibility, assumptions, results, and engineering judgement over generic skill claims.*
+*The repository documents completed work only. Future projects and tools are added to the public portfolio when supporting technical evidence is available.*
