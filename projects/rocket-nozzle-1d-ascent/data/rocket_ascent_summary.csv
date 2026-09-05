@@ -1,0 +1,2 @@
+burn_time_s,burnout_altitude_m,burnout_velocity_mps,max_q_Pa,max_q_time_s,max_q_altitude_m,max_q_velocity_mps,max_altitude_in_window_m,velocity_at_end_mps,final_time_s
+18.96285191826678,8745.106895251569,942.1408378567849,213412.45957907088,18.962594290744224,8744.86417552824,942.1505209219832,36546.27034310859,148.91166617865932,78.96285191826678

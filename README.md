@@ -15,7 +15,7 @@ Based in Nantes, France, I am building toward **aerospace propulsion, thermal-fl
 | Area | Current direction |
 |---|---|
 | **Thermal & fluid systems** | Thermodynamics, heat transfer, fluid mechanics |
-| **Numerical simulation** | Engineering modelling, MATLAB/Simulink, scientific computing |
+| **Numerical simulation** | Engineering modelling, MATLAB/Simulink, Python scientific computing |
 | **Structural analysis** | Finite-element modelling and ANSYS APDL workflows |
 | **Aerospace applications** | Propulsion, aerodynamics, turbomachinery, thermal management |
 
@@ -30,7 +30,7 @@ ANSYS APDL · Finite Element Analysis
 **CAD / engineering**  
 SolidWorks
 
-**Technical workflow**  
+**Engineering documentation & data handling**  
 LaTeX · Excel
 
 **Currently developing**  
@@ -42,7 +42,19 @@ CFD · COMSOL · advanced numerical simulation
 
 ## Featured engineering projects
 
-### 1. ISA Atmosphere & TAS-to-CAS Conversion
+### 1. Rocket Nozzle Performance & 1D Ascent Simulation
+
+**Engineering objective:** couple ideal rocket-nozzle performance to a simplified 1D vertical ascent model and evaluate altitude-dependent thrust, specific impulse, burnout, trajectory, and Max-Q.
+
+**Methods / tools:** Python, NumPy, SciPy, pandas, Matplotlib, isentropic nozzle relations, simplified ISA atmosphere, ODE integration.
+
+**Key results:** sea-level thrust ≈ **83.3 kN**, $I_{sp}$ ≈ **268.4 s**; Max-Q ≈ **213.4 kPa** near burnout at **8.745 km**; the 60 s coast window reaches **36.55 km** while still ascending.
+
+**[View project →](projects/rocket-nozzle-1d-ascent/README.md)**
+
+---
+
+### 2. ISA Atmosphere & TAS-to-CAS Conversion
 
 **Engineering objective:** develop a modular MATLAB/Simulink workflow for atmospheric-state modelling, true-to-calibrated airspeed conversion, and supporting coordinate transformations.
 
@@ -54,7 +66,7 @@ CFD · COMSOL · advanced numerical simulation
 
 ---
 
-### 2. Fixed-Wing Aerodynamic Analysis
+### 3. Fixed-Wing Aerodynamic Analysis
 
 **Engineering objective:** model a conventional fixed-wing configuration and evaluate a Clark Y airfoil using MachUp and XFOIL.
 
