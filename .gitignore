@@ -1,0 +1,19 @@
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# MATLAB autosave / generated files
+*.asv
+*.autosave
+slprj/
+codegen/
+
+# Python cache (for future utilities)
+__pycache__/
+*.py[cod]
+
+# Local environment / IDE
+.vscode/
+.idea/
