@@ -1,74 +1,84 @@
-# 🚀 Aerospace CFD & Propulsion Learning Journey
+# ISA Atmosphere & Airspeed Conversion — MATLAB/Simulink
 
-Hello! I’m **Elie Moussa**, a Mechanical Engineering master’s student focused on **aerospace simulation, propulsion, and controls**.  
-This repository is my **public portfolio** for projects built around:
+**Engineering simulation project by Elie Moussa**  
+Polytech Nantes — 4A, Diplôme d’ingénieur TEM (Thermique, Énergétique et Mécanique)
 
-- **MATLAB & Simulink** – modelling dynamic systems, control, and data analysis  
-- **ANSYS Fluent** – CFD for airfoils, nozzles, and propulsion-related flows  
-- **Python & Machine Learning** – automation, data processing, and surrogate models for simulation
+## Overview
+
+This project develops a MATLAB/Simulink workflow for atmospheric-state modelling and airspeed conversion across representative flight conditions. The model combines an International Standard Atmosphere (ISA) subsystem with a True Airspeed (TAS) to Calibrated Airspeed (CAS) conversion workflow and supporting coordinate-transformation logic.
+
+The repository is presented as an engineering case study: model architecture, representative verification cases, visual evidence, and a technical report are kept together so that the work can be reviewed independently.
+
+## Engineering objectives
+
+- Model atmospheric properties as a function of altitude using ISA relationships.
+- Convert TAS inputs to CAS within the Simulink workflow.
+- Organize the model into clear, reusable subsystems.
+- Implement supporting Earth-to-body transformation logic.
+- Check model behaviour at representative altitude and airspeed conditions.
+- Document the methodology and outputs in a technical report.
+
+## Model architecture
+
+<p align="center">
+  <img src="assets/figures/isa-tas-cas-subsystem.png" width="48%" alt="ISA and TAS-to-CAS Simulink subsystem" />
+  <img src="assets/figures/earth-to-body-transformation.png" width="48%" alt="Earth-to-body coordinate transformation model" />
+</p>
+
+The model is decomposed into subsystems so that atmospheric calculations, airspeed conversion, and supporting transformations can be inspected and tested separately.
+
+## Representative verification cases
+
+<p align="center">
+  <img src="assets/figures/validation-sea-level-tas-150.png" width="48%" alt="Sea-level TAS 150 verification case" />
+  <img src="assets/figures/validation-12000m-tas-200.png" width="48%" alt="12000 m TAS 200 verification case" />
+</p>
+
+Two representative operating points are retained in the repository to show the model being exercised at substantially different atmospheric conditions.
+
+## Tools used
+
+- MATLAB
+- Simulink
+
+## Repository structure
+
+```text
+.
+├── README.md
+├── assets/
+│   └── figures/
+│       ├── atmosphere-model-overview.png
+│       ├── earth-to-body-transformation.png
+│       ├── isa-tas-cas-subsystem.png
+│       ├── validation-12000m-tas-200.png
+│       ├── validation-sea-level-tas-150.png
+│       └── supporting/
+├── docs/
+│   └── isa-tas-cas-report.pdf
+└── .gitignore
+```
+
+## Technical report
+
+The full project report is available here:
+
+**[Open the technical report](docs/isa-tas-cas-report.pdf)**
+
+## Engineering context
+
+This project is part of my development in numerical simulation for aerospace and thermal-fluid engineering. My current academic path at Polytech Nantes focuses on thermal, energy, and mechanical engineering, with long-term interests in aerospace propulsion, turbomachinery, thermal management, and simulation-driven engineering.
+
+## Author
+
+**Elie Moussa**  
+4A Engineering Student — Polytech Nantes  
+Thermique, Énergétique et Mécanique (TEM)  
+BSc in Mechanical Engineering
+
+- [LinkedIn](https://www.linkedin.com/in/moussaelie/)
+- [Email](mailto:eliemoussacareer@outlook.com)
 
 ---
 
-## 🎯 Mission
-
-Build a strong, *industry-relevant* skill set in **aerospace propulsion and simulation** using  
-**MATLAB/Simulink, ANSYS Fluent, and Python/ML**, and document everything in a clean, reproducible way.
-
----
-
-## 🛠 Skills & Tools
-
-### Simulation & CFD
-- ANSYS Fluent  
-- Basic mesh setup and post-processing for external and internal aerodynamics  
-- Nozzle and basic propulsion-related flow cases  
-
-### MATLAB & Simulink
-- MATLAB scripting for engineering calculations and data analysis  
-- Simulink models of dynamic systems (actuators, simple propulsion/control blocks)  
-- Plotting, parameter sweeps, and result post-processing  
-
-### Python & Machine Learning
-- Python (NumPy, SciPy, pandas, Matplotlib)  
-- Basic machine learning (scikit-learn): regression & classification  
-- Training simple surrogate models on CFD or simulation data  
-  - e.g. predicting Cl/Cd, nozzle performance  
-
-### Aerospace / Propulsion Concepts
-- Compressible flow (Mach number, shock & expansion basics)  
-- Airfoil aerodynamics and performance metrics  
-- Intro rocket/nozzle propulsion performance (thrust, Isp, mass flow)  
-
-
----
-
-## 📂 Repository Structure (planned)
-
-As projects are completed, they’ll be organized like this:
-
-### matlab-simulink
-   -control-system           # Simple Simulink control/propulsion-related models
-   -data-analysis            # MATLAB scripts for plotting & post-processing
-   
-### ansys-fluent
-    -airfoil-cfd             # 2D airfoil cases (setups, reports, images)
-    -nozzle-cfd              # Convergent–divergent nozzle cases
-    
-### python-ml
-    -rocket_1d_solver        # 1D rocket / nozzle performance scripts
-    -cfd_surrogate_models    # ML models trained on CFD/simulation data
- 
- ### docs 
-    -reports                 # PDF reports & writeups
-    -figures                 # Plots and visualization exports   
-
----
-
-## 📫 Connect
-- **LinkedIn:** https://www.linkedin.com/in/moussaelie/ 
-- **Email:** eliemoussacareer@outlook.com
-
----
-
-> ✨ *“Building expertise one simulation at a time.”*  
-This portfolio will evolve as I complete projects and document results.  
+*The repository documents completed work only. Future projects and tools are added to the public portfolio when supporting technical evidence is available.*
