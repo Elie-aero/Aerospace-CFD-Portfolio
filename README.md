@@ -1,74 +1,113 @@
-# 🚀 Aerospace CFD & Propulsion Learning Journey
+# Elie Moussa — Aerospace Engineering Portfolio
 
-Hello! I’m **Elie Moussa**, a Mechanical Engineering master’s student focused on **aerospace simulation, propulsion, and controls**.  
-This repository is my **public portfolio** for projects built around:
+**Mechanical & Thermal Engineering | Numerical Simulation | Aerospace Propulsion**
 
-- **MATLAB & Simulink** – modelling dynamic systems, control, and data analysis  
-- **ANSYS Fluent** – CFD for airfoils, nozzles, and propulsion-related flows  
-- **Python & Machine Learning** – automation, data processing, and surrogate models for simulation
+I am a **4A engineering student at Polytech Nantes** in the *Diplôme d'ingénieur — Thermique, Énergétique et Mécanique (TEM)* programme, with a prior **BSc in Mechanical Engineering**.
 
----
+My technical direction is focused on **thermal-fluid systems, numerical simulation, aerospace propulsion, turbomachinery, and thermal management**. This repository documents engineering work that I can explain, reproduce, and defend technically.
 
-## 🎯 Mission
-
-Build a strong, *industry-relevant* skill set in **aerospace propulsion and simulation** using  
-**MATLAB/Simulink, ANSYS Fluent, and Python/ML**, and document everything in a clean, reproducible way.
+> **Current objective:** build a rigorous project portfolio for a **Summer 2027 aerospace / thermal-fluid / simulation internship**.
 
 ---
 
-## 🛠 Skills & Tools
+## Selected Project
 
-### Simulation & CFD
-- ANSYS Fluent  
-- Basic mesh setup and post-processing for external and internal aerodynamics  
-- Nozzle and basic propulsion-related flow cases  
+### ISA Atmosphere & TAS-to-CAS Conversion — MATLAB/Simulink
 
-### MATLAB & Simulink
-- MATLAB scripting for engineering calculations and data analysis  
-- Simulink models of dynamic systems (actuators, simple propulsion/control blocks)  
-- Plotting, parameter sweeps, and result post-processing  
+A MATLAB/Simulink aerospace modelling project built around atmospheric-state modelling and airspeed conversion for representative flight conditions.
 
-### Python & Machine Learning
-- Python (NumPy, SciPy, pandas, Matplotlib)  
-- Basic machine learning (scikit-learn): regression & classification  
-- Training simple surrogate models on CFD or simulation data  
-  - e.g. predicting Cl/Cd, nozzle performance  
+**Engineering scope**
+- International Standard Atmosphere (ISA) modelling
+- True Airspeed (TAS) to Calibrated Airspeed (CAS) conversion workflow
+- Earth-to-body coordinate transformation logic
+- Model decomposition into Simulink subsystems
+- Verification using representative altitude / airspeed cases
 
-### Aerospace / Propulsion Concepts
-- Compressible flow (Mach number, shock & expansion basics)  
-- Airfoil aerodynamics and performance metrics  
-- Intro rocket/nozzle propulsion performance (thrust, Isp, mass flow)  
+**Tools:** MATLAB · Simulink
 
+**Representative model views**
 
----
+<p align="center">
+  <img src="ISA%20%26%20TAS2CAS%20SUBSYTEM.png" width="48%" alt="ISA and TAS-to-CAS Simulink subsystem" />
+  <img src="Matlab%20complete%20rotation%20earth%20to%20Body%20.png" width="48%" alt="Earth-to-body coordinate transformation model" />
+</p>
 
-## 📂 Repository Structure (planned)
+**Representative validation cases**
 
-As projects are completed, they’ll be organized like this:
+<p align="center">
+  <img src="Altitude%20zero%20and%20TAS%20equal%20150.png" width="48%" alt="Sea-level TAS 150 validation case" />
+  <img src="Altitude%2012000%20m%20and%20TAS%20equal%20200.png" width="48%" alt="12000 m TAS 200 validation case" />
+</p>
 
-### matlab-simulink
-   -control-system           # Simple Simulink control/propulsion-related models
-   -data-analysis            # MATLAB scripts for plotting & post-processing
-   
-### ansys-fluent
-    -airfoil-cfd             # 2D airfoil cases (setups, reports, images)
-    -nozzle-cfd              # Convergent–divergent nozzle cases
-    
-### python-ml
-    -rocket_1d_solver        # 1D rocket / nozzle performance scripts
-    -cfd_surrogate_models    # ML models trained on CFD/simulation data
- 
- ### docs 
-    -reports                 # PDF reports & writeups
-    -figures                 # Plots and visualization exports   
+[View the technical report](Simulink_ISA_TAS2CAS_Report_.pdf)
 
 ---
 
-## 📫 Connect
-- **LinkedIn:** https://www.linkedin.com/in/moussaelie/ 
-- **Email:** eliemoussacareer@outlook.com
+## Engineering Focus
+
+| Area | Current direction |
+|---|---|
+| **Thermal-Fluids** | Heat transfer, fluid mechanics, compressible-flow fundamentals |
+| **Numerical Simulation** | MATLAB/Simulink, FEA workflows, engineering post-processing |
+| **Aerospace** | Propulsion, turbomachinery, aerodynamics, thermal management |
+| **Mechanical Design** | CAD, structural reasoning, engineering documentation |
 
 ---
 
-> ✨ *“Building expertise one simulation at a time.”*  
-This portfolio will evolve as I complete projects and document results.  
+## Technical Toolkit
+
+**Simulation & computation**  
+MATLAB · Simulink · Python · ANSYS APDL / FEA
+
+**CAD & mechanical design**  
+SolidWorks · Fusion 360 · Autodesk Inventor
+
+**Engineering workflow**  
+Git · GitHub · Excel · LaTeX
+
+> Tools are listed as part of my broader academic/project workflow. Individual repositories are intended to provide evidence for the specific tools used in each project.
+
+---
+
+## Portfolio Development
+
+This repository began as a broad aerospace-CFD learning space. I am now restructuring it into an **evidence-based engineering portfolio**.
+
+Projects will be added only when they contain enough technical substance to show:
+
+1. **Problem definition**
+2. **Physics and assumptions**
+3. **Method / model setup**
+4. **Results**
+5. **Verification or validation**
+6. **Engineering interpretation**
+
+Planned portfolio directions include:
+- Aerospace structural FEA
+- Airfoil / aerodynamic analysis
+- Thermal-management and heat-transfer studies
+- CFD for internal or external flows
+- Propulsion / turbomachinery modelling
+
+These items are **development targets**, not claims of completed work.
+
+---
+
+## Education
+
+**Polytech Nantes — Nantes Université**  
+Diplôme d'ingénieur, Thermique, Énergétique et Mécanique (TEM) — **4A / Bac+4**
+
+**Mechanical Engineering**  
+BSc completed prior to joining Polytech Nantes
+
+---
+
+## Contact
+
+- **LinkedIn:** [linkedin.com/in/moussaelie](https://www.linkedin.com/in/moussaelie/)
+- **Email:** [eliemoussacareer@outlook.com](mailto:eliemoussacareer@outlook.com)
+
+---
+
+*This portfolio is maintained as technical evidence of my engineering development. Project pages prioritize reproducibility, assumptions, results, and engineering judgement over generic skill claims.*
